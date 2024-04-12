@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fly_app/Card/myContainer.dart';
-import 'package:fly_app/todo/default_main.dart';
+import 'package:fly_app/WeatherApp/screens/home_page.dart';
 // import 'package:fly_app/Screens/homepage.dart';
 
 void main() {
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  const TodoMainApp(),
+      home:  const WeatherHomePage(),
     );
   }
 }
