@@ -38,7 +38,9 @@ class MyContainer extends StatelessWidget {
                     color: Colors.green,
                   shape: BoxShape.circle
                   ),
-                  child: const CircleAvatar(),
+                  child:  CircleAvatar(
+                    child: Image.asset("lib/images/mike.jpeg", fit: BoxFit.cover,),
+                  ),
                   ),
               ),
               const Positioned(
@@ -100,10 +102,10 @@ class MyContainer extends StatelessWidget {
             ),
           ),
          const Positioned(
-               right: 60,
-               top: 100,
-               child: Center(
-               child: Text(
+              right: 60,
+            top: 100,
+              child: Center(
+              child: Text(
                 "View Profile",
                 style: TextStyle(
                   color: Colors.white,
