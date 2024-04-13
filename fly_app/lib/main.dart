@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fly_app/WeatherApp/screens/home_page.dart';
+import 'package:fly_app/CheckboxApp/checkbox_demo.dart';
 // import 'package:fly_app/Screens/homepage.dart';
-import 'dart:html';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  const WeatherHomePage(),
+      home:   const CheckBoxDemo(),
     );
   }
 }

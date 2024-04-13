@@ -3,7 +3,7 @@ import 'package:fly_app/WeatherApp/services/location_service.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 
-class LocationProvider with ChangeNotifier {
+class LocationProvider12 with ChangeNotifier {
   Position? _currentPosition;
   Position? get currentPosition => _currentPosition;
   final LocationService _locationService = LocationService();
