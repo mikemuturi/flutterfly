@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fly_app/CheckboxApp/checkbox_demo.dart';
+import 'package:fly_app/Customclipper/screens/onboarding_one.dart';
 // import 'package:fly_app/Screens/homepage.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:   const CheckBoxDemo(),
+      home:   const OnBoardingOne(),
     );
   }
 }
