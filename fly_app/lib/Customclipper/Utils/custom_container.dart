@@ -11,7 +11,7 @@ class SlantedTopClipper extends CustomClipper<Path> {
     path.close();
     return path;
   }
-
+  
   @override
   bool shouldReclip(covariant CustomClipper<Path> oldClipper) {
     return false;
