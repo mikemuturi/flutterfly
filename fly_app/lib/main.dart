@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fly_app/Customclipper/screens/screen_one.dart';
-import 'package:fly_app/slidderApp/Home_screen.dart';
+import 'package:fly_app/onboardingApp/onboarding_screen.dart';
 // import 'package:fly_app/Screens/homepage.dart';
 
 void main() {
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:   const ImageSlider(),
+      home:   const OnBoardingScreen(),
     );
   }
 }
